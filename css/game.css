@@ -1,0 +1,30 @@
+.background    { background: url('http://3.bp.blogspot.com/-tj6VxpRL5U8/T-DdQPd-WsI/AAAAAAAAA_Q/_pWyl-ArlIg/s640/http-inlinethumb52.webshots.com-15347-2057841650103830173S600x600Q85.jpg');
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.acid          { background: #33CC33; }
+.wall          { background: url('https://image-gr.s3.envato.com/files/297116.jpg');   }
+
+.actor  { position: absolute;  }
+.barrel   { background: url('http://www.dkc-atlas.com/maps/dkc/elements/sprites/json/Continue%20Barrel.gif'); }
+.player { background: url('http://www.gsarchives.net/snes/donkey_kong_country/sprites/animated/Donkey_Walk_Right.gif'); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: url('http://www.noah.org/backgrounds/skull_small.gif');
+  background-repeat:no-repeat;
+}
+.won .player {
+	background: url('https://tcrf.net/images/f/fa/DKCAltWin.gif');
+	background-repeat:no-repeat;
+	max-width: 100px;
+	min-width: 100%;
+    max-height: 100px;
+    min-height:100%;
+}
